@@ -1,0 +1,29 @@
+# Dataset (download from Kaggle, see README)
+diabetes_prediction_dataset.csv
+*.csv.zip
+
+# Generated data partitions and preprocessing artifacts
+*.npz
+*.joblib
+
+# Trained models
+models/
+*.keras
+*.h5
+
+# Logs and temporary outputs
+logs/
+paket_revisi/
+paket_revisi.zip
+*.log
+
+# Local database / environment
+*.db
+.env
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/

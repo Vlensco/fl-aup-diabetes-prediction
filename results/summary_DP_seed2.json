@@ -1,0 +1,61 @@
+{
+  "run_id": "DP_seed2_2026-09-25_22-58-44",
+  "scenario": "DP",
+  "scenario_paper_name": "Fixed update perturbation",
+  "seed": 2,
+  "total_rounds": 50,
+  "noise_multiplier": 1.0,
+  "initial_clip": 1.5,
+  "final_clip": 1.5,
+  "selection": {
+    "best_round_by_validation_f1": 43,
+    "best_validation_f1_at_monitor_threshold": 0.6295986622073578,
+    "monitor_threshold": 0.5,
+    "selected_threshold": 0.89,
+    "threshold_source": "max F1 on validation"
+  },
+  "test_at_selected_threshold": {
+    "threshold": 0.89,
+    "accuracy": 0.9706708268330734,
+    "precision": 0.9700996677740864,
+    "recall": 0.6886792452830188,
+    "f1": 0.8055172413793104,
+    "loss": 0.1755040357327371,
+    "tn": 17498,
+    "fp": 36,
+    "fn": 528,
+    "tp": 1168
+  },
+  "test_at_0.50": {
+    "threshold": 0.5,
+    "accuracy": 0.9044201768070723,
+    "precision": 0.4771410173857051,
+    "recall": 0.8738207547169812,
+    "f1": 0.6172428154935443,
+    "loss": 0.1755040357327371,
+    "tn": 15910,
+    "fp": 1624,
+    "fn": 214,
+    "tp": 1482
+  },
+  "test_ranking_metrics": {
+    "average_precision": 0.8642139675517944,
+    "roc_auc": 0.9704529918691664
+  },
+  "test_final_round_model_at_0.50": {
+    "threshold": 0.5,
+    "accuracy": 0.9014040561622465,
+    "precision": 0.46857322438717786,
+    "recall": 0.879127358490566,
+    "f1": 0.6113161131611317,
+    "loss": 0.17913063898205317,
+    "tn": 15843,
+    "fp": 1691,
+    "fn": 205,
+    "tp": 1491
+  },
+  "files": {
+    "best_model": "models\\best_model_DP_seed2_2026-09-25_22-58-44.keras",
+    "threshold_sweep": "results\\threshold_sweep_validation_DP_seed2.csv"
+  }
+}

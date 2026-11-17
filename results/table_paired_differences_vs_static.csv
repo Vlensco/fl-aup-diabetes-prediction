@@ -1,0 +1,3 @@
+﻿Comparison,n_paired_seeds,Δf1,Δrecall,Δprecision,Δaverage_precision
+DP − STATIC,5,+0.0003 ± 0.0026,+0.0011 ± 0.0047,-0.0012 ± 0.0145,+0.0019 ± 0.0025
+ADP − STATIC,5,+0.0003 ± 0.0019,-0.0008 ± 0.0035,+0.0025 ± 0.0115,+0.0008 ± 0.0021

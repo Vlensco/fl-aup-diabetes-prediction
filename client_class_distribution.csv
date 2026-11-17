@@ -1,0 +1,9 @@
+client,stage,class,count
+RS_01,Before SMOTE,Non-diabetic (0),27613
+RS_01,Before SMOTE,Diabetic (1),4157
+RS_01,After local SMOTE,Non-diabetic (0),27613
+RS_01,After local SMOTE,Diabetic (1),27613
+RS_02,Before SMOTE,Non-diabetic (0),33750
+RS_02,Before SMOTE,Diabetic (1),1781
+RS_02,After local SMOTE,Non-diabetic (0),33750
+RS_02,After local SMOTE,Diabetic (1),33750

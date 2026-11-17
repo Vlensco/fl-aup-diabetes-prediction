@@ -1,0 +1,16 @@
+# Python 3.10+ recommended
+tensorflow>=2.15
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+joblib
+matplotlib
+seaborn
+flask
+flask-cors
+flask-sqlalchemy
+psycopg2-binary
+requests
+openpyxl
+jupyter

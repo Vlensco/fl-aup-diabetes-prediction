@@ -1,0 +1,4 @@
+﻿Scenario,Paper name,n_seeds,accuracy@0.50,precision@0.50,recall@0.50,f1@0.50,loss@0.50
+STATIC,No perturbation,5,0.9097 ± 0.0028,0.4934 ± 0.0089,0.8675 ± 0.0060,0.6289 ± 0.0067,0.1693 ± 0.0030
+DP,Fixed update perturbation,5,0.9056 ± 0.0030,0.4809 ± 0.0090,0.8752 ± 0.0042,0.6207 ± 0.0070,0.1734 ± 0.0038
+ADP,Adaptive update perturbation,5,0.9065 ± 0.0029,0.4836 ± 0.0085,0.8749 ± 0.0052,0.6228 ± 0.0060,0.1732 ± 0.0038

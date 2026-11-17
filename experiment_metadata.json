@@ -1,0 +1,71 @@
+{
+  "dataset_name": "Diabetes Prediction Dataset (Kaggle, 100,000 records)",
+  "n_raw_records": 100000,
+  "n_duplicates_removed": 3854,
+  "n_after_cleaning": 96146,
+  "split_seed": 42,
+  "split_ratio": {
+    "train": 0.7000000000000001,
+    "validation": 0.1,
+    "test": 0.2
+  },
+  "engineered_feature_count": 15,
+  "feature_names": [
+    "age",
+    "bmi",
+    "HbA1c_level",
+    "blood_glucose_level",
+    "gender_Female",
+    "gender_Male",
+    "gender_Other",
+    "smoking_history_Unknown",
+    "smoking_history_current",
+    "smoking_history_ever",
+    "smoking_history_former",
+    "smoking_history_never",
+    "smoking_history_not current",
+    "hypertension",
+    "heart_disease"
+  ],
+  "preprocessing_policy": "ColumnTransformer fitted on the training partition only",
+  "partition_policy": {
+    "type": "label-skewed non-IID",
+    "rs01_positive_share": 0.7,
+    "rs01_negative_share": 0.45
+  },
+  "smote_policy": "Applied locally inside each client after partitioning (auto_client.py); never applied to validation or test",
+  "test_set_policy": "Original (non-synthetic) held-out data; evaluated once per run after model and threshold selection on validation",
+  "initialization_policy": "Random initialization on the server; no centralized pre-training",
+  "class_distribution": {
+    "train_total": {
+      "n": 67301,
+      "negative": 61363,
+      "positive": 5938,
+      "positive_rate": 0.08823048691698489
+    },
+    "RS_01": {
+      "n": 31770,
+      "negative": 27613,
+      "positive": 4157,
+      "positive_rate": 0.1308467107333963
+    },
+    "RS_02": {
+      "n": 35531,
+      "negative": 33750,
+      "positive": 1781,
+      "positive_rate": 0.0501252427457713
+    },
+    "validation": {
+      "n": 9615,
+      "negative": 8767,
+      "positive": 848,
+      "positive_rate": 0.08819552782111284
+    },
+    "test": {
+      "n": 19230,
+      "negative": 17534,
+      "positive": 1696,
+      "positive_rate": 0.08819552782111284
+    }
+  }
+}
